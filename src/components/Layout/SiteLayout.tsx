@@ -4,8 +4,6 @@ import Navbar from "@/components/Navbar";
 import { ReactNode } from "react";
 import Footer from "@/components/Footer";
 
-const inter = Inter({ subsets: ["latin"] });
-
 import ScrollToTop from "../uiComponents/ScrollToTop";
 
 interface ISiteLayoutProps {
