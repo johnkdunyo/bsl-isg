@@ -1,5 +1,5 @@
 # Example of installing dependencies in the Dockerfile
-FROM node:14
+FROM node:18.5-alpine
 
 WORKDIR /app
 
