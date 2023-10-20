@@ -51,7 +51,7 @@ const Enquiry = () => {
   };
 
   return (
-    <SiteLayout pageName={"Enquiry"}>
+    <SiteLayout pageName={"Contact Us"}>
       <section className="bg-[#0C233E] h-full   relative">
         <CustomBackground1 />
         <div className=" custom-container2 pt-32 pb-24">

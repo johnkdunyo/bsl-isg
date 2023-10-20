@@ -55,7 +55,7 @@ const SingleSection = ({
   return (
     <Animate.FadeUp>
       <div
-        className={`relative  border-yellow-500 mb-8 md:hidden  ${className}`}
+        className={`relative  border-yellow-500 mb-8 lg:hidden  ${className}`}
         style={{ minHeight: `${height + 225}px` }}
       >
         <img
@@ -78,7 +78,7 @@ const SingleSection = ({
           </div>
         </div>
       </div>
-      <div className="hidden md:flex h-full w-full justify-between  bg-gradient-to-l to-[#1D365A] from-[#AB2346]  rounded-[80px] p-7  ">
+      <div className="hidden lg:flex h-full w-full justify-between  bg-gradient-to-l to-[#1D365A] from-[#AB2346]  rounded-[80px] p-7  ">
         <div
           className={`text-white w-full    ${
             txtPosition === "right" && "order-last"
@@ -108,17 +108,17 @@ const SingleSection = ({
 
 const OurSolutionSection = () => {
   return (
-    <section className="py-20  bg-white">
+    <section className="py-20  bg-white" id="our-solutions">
       <div className="custom-container">
-        <div className=" w-full">
-          <Animate.FadeUp className="text-primary font-bold text-4xl md:hidden">
+        <div className=" w-full max-w-lg">
+          <Animate.FadeUp className="headerText1 lg:hidden text-primary">
             Our <br />
             Solutions
           </Animate.FadeUp>
-          <Animate.FadeUp className="text-primary font-bold text-4xl hidden md:block">
+          <Animate.FadeUp className="text-primary headerText1 hidden lg:block">
             Our Solutions
           </Animate.FadeUp>
-          <p className="text-primary mt-10">
+          <p className="text-primary mt-4 ">
             We are your go-to Fibre maintenance team providing you with Seamless
             connectivity and uninterrupted performance!
           </p>

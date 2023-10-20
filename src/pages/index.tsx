@@ -1,6 +1,7 @@
 import SiteLayout from "@/components/Layout/SiteLayout";
 import AboutSection from "@/components/infraServices/AboutSection";
 import HeroSection from "@/components/infraServices/HeroSection";
+import MissionVision from "@/components/infraServices/MissionVision";
 import OurSolutionSection from "@/components/infraServices/OurSolutionSection";
 import ReliableSection from "@/components/infraServices/ReliableSection";
 import WeAreWhenYouNeedUsSection from "@/components/infraServices/WeAreWhenYouNeedUsSection";
@@ -14,6 +15,7 @@ const Isg = () => {
         <AboutSection />
         <ReliableSection />
         <OurSolutionSection />
+        <MissionVision />
         <WeAreWhenYouNeedUsSection />
       </>
     </SiteLayout>

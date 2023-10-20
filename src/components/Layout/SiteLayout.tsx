@@ -5,19 +5,11 @@ import { ReactNode } from "react";
 import Footer from "@/components/Footer";
 
 import ScrollToTop from "../uiComponents/ScrollToTop";
+import { IPageName } from "@/types/indext";
 
 interface ISiteLayoutProps {
   children: ReactNode;
-  pageName:
-    | "BSL Home"
-    | "Spectrum Fibre"
-    | "Infra Services"
-    | "Digital Payment"
-    | "Business"
-    | "About"
-    | "Career"
-    | "Enquiry"
-    | "Galley";
+  pageName: IPageName;
 }
 
 export default function SiteLayout({ children, pageName }: ISiteLayoutProps) {
