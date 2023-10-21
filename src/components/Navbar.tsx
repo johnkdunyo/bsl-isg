@@ -340,6 +340,12 @@ const Navbar = ({ pageName }: INavbar) => {
           <div className="flex gap-16  w-5/12 items-center justify-end  border-red-500 relative">
             <div className="flex gap-2  ">
               <CustomNavButton2
+                href="/"
+                title="Home"
+                active={pageName === "Infra Services"}
+              />
+
+              <CustomNavButton2
                 href="/#our-solutions"
                 title="Product & Services"
                 active={pageName === "Product & Services"}
