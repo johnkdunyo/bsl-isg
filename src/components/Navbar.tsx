@@ -117,14 +117,14 @@ const CustomNavButton2 = ({
         active
           ? "border-[#AB2346] border-b-[4px]"
           : "border-b-[4px] border-transparent"
-      } `}
+      } text-base`}
     >
       {href ? (
         <Link href={href}>
           <h1
             className={`${
               textColorWhite ? "text-white" : "text-primary"
-            } font-medium text-md whitespace-nowrap `}
+            } font-medium  whitespace-nowrap hover:text-secondary`}
           >
             {title}
           </h1>
@@ -133,7 +133,7 @@ const CustomNavButton2 = ({
         <h1
           className={`${
             textColorWhite ? "text-white" : "text-primary"
-          } font-medium text-md whitespace-nowrap `}
+          } font-medium  whitespace-nowrap `}
         >
           {title}
         </h1>
@@ -338,7 +338,7 @@ const Navbar = ({ pageName }: INavbar) => {
           </div>
 
           <div className="flex gap-16  w-5/12 items-center justify-end  border-red-500 relative">
-            <div className="flex gap-12  ">
+            <div className="flex gap-2  ">
               <CustomNavButton2
                 href="/#our-solutions"
                 title="Product & Services"
@@ -355,7 +355,7 @@ const Navbar = ({ pageName }: INavbar) => {
                 onMouseEnter={() => setShowMediaDropdown(true)}
                 onMouseLeave={() => setShowMediaDropdown(false)}
               >
-                <h1 className="font-medium text-sm whitespace-nowrap hover:text-secondary">
+                <h1 className="font-medium text-base whitespace-nowrap hover:text-secondary">
                   Media
                 </h1>
 
@@ -500,6 +500,15 @@ const Navbar = ({ pageName }: INavbar) => {
             </div>
 
             <div className="px-6 flex flex-col gap-4">
+              <Link href="/">
+                <h1
+                  className="text-[#1D365A] font-medium text-3xl"
+                  onClick={() => setOpenDesktopSiteMenu(false)}
+                >
+                  Home
+                </h1>
+              </Link>
+
               <Link href="/#our-solutions">
                 <h1
                   className="text-[#1D365A] font-medium text-3xl"
