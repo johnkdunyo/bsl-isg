@@ -369,10 +369,10 @@ const Navbar = ({ pageName }: INavbar) => {
                   <div className="bg-white absolute h-fit w-fit text-primary px-2 py-1.5 rounded-md -ml-[25%] top-10">
                     <ul className="flex flex-col items-start justify-start font-medium  gap-1.5">
                       <li className="hover:text-secondary">
-                        <Link href="/media">Media</Link>
+                        <Link href="/">Media</Link>
                       </li>
                       <li className="hover:text-secondary">
-                        <Link href="/media">Newsletter</Link>
+                        <Link href="/">Newsletter</Link>
                       </li>
                     </ul>
                   </div>
@@ -552,7 +552,7 @@ const Navbar = ({ pageName }: INavbar) => {
                   <Link href="/">
                     <h1>Publications</h1>
                   </Link>
-                  <Link href="/gallery">
+                  <Link href="/">
                     <h1>Gallery</h1>
                   </Link>
                 </div>
